@@ -31,7 +31,7 @@ const botao_envio = document.getElementById("entrar");
 
 function verificarData(data){
     if (data === "20/09/2022"){
-        window.location.href = "/Feliz-Natal-s2/paginainicial.html";
+        window.location.href = "paginainicial.html";
     }
 }
 
