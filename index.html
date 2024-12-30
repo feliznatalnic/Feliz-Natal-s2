@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./estilo.css">
+    <script src="./script.js" defer></script>
+    <title>Feliz Natal s2</title>
+</head>
+<body class="pagina-inicial">
+    
+    <div class="ativacao" id="ativacao">
+        <h1 class="titulo-pagina">Toque para abrir seu presente!</h1>
+        <img id="presente" src="img/presente.png">
+    </div>
+
+    <div id="neve" class="container-neve fora-de-cena">
+        <span class="neve" style="--i: 10"></span>
+        <span class="neve" style="--i: 11"></span>
+        <span class="neve" style="--i: 12"></span>
+        <span class="neve" style="--i: 12"></span>
+        <span class="neve" style="--i: 11"></span>
+        <span class="neve" style="--i: 14"></span>
+        <span class="neve" style="--i: 16"></span>
+        <span class="neve" style="--i: 17"></span>
+        <span class="neve" style="--i: 15"></span>
+        <span class="neve" style="--i: 17"></span>
+        <span class="neve" style="--i: 10"></span>
+        <span class="neve" style="--i: 16"></span>
+        <span class="neve" style="--i: 22"></span>
+        <span class="neve" style="--i: 14"></span>
+        <span class="neve" style="--i: 10"></span>
+        <span class="neve" style="--i: 12"></span>
+        <span class="neve" style="--i: 19"></span>
+        <span class="neve" style="--i: 12"></span>
+        <span class="neve" style="--i: 11"></span>
+        <span class="neve" style="--i: 17"></span>
+        <span class="neve" style="--i: 21"></span>
+        <span class="neve" style="--i: 25"></span>
+        <span class="neve" style="--i: 13"></span>
+        <span class="neve" style="--i: 10"></span>
+        <span class="neve" style="--i: 12"></span>
+        <span class="neve" style="--i: 12"></span>
+    </div>
+
+    <audio id="audio" loop>
+        <source src="audio/alliwant.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="main fora-de-cena" id="main-index">
+
+        <h1 class="titulo-pagina">Feliz Natal, Nicole!</h1>
+        
+        <div class="espaco-senha">
+            <input type="text" id="senha" maxlength="10" oninput="formatarData(this)" placeholder="Insira aqui aquela data...">
+            <input type="submit" value="Entrar" name="entrar" id="entrar">
+        </div>
+
+        <img src="./img/eueela.png" id="eueela">
+    </div>
+
+    </div>
+</body>
+</html>
